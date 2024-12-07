@@ -5,10 +5,10 @@ services:
         read_only: true
         image: ghcr.io/askrella/whatsapp-chatgpt:master
         environment:
-            OPENAI_API_KEY: ""
-            OPENAI_GPT_MODEL: ""
-            PREFIX_ENABLED: ""
-            SERPAPI_API_KEY: ""
+            OPENAI_API_KEY: "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"
+            OPENAI_GPT_MODEL: "gpt-4o-mini"
+            PREFIX_ENABLED: "False"
+            SERPAPI_API_KEY: "eadaecb94961ffb14bad753f0636f6b7ab727a8eda6a070469fc7ee839761dc6"
         restart: unless-stopped
         volumes:
             - session-data:/app/session
